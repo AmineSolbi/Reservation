@@ -60,7 +60,7 @@ const mediumMountains = [
     {
         id:1,
         name: "Toubkal West (4030m) Marrakech",
-        image: "../../public/images/toubkal_west.jpg",
+        image: "/images/toubkal_west.jpg",
         titel: "Toubkal West Trekking Expedition",
         price: "350 DH",
         duration: "5 Days",
@@ -69,7 +69,7 @@ const mediumMountains = [
     {
         id:8,
         name: "Biquinoussen (4083m) Marrakech",
-        image: "../../public/images/ras_ouankrim.jpg",
+        image: "/images/ras_ouankrim.jpg",
         titel: "Biquinoussen Adventure",
         price: "$400",
         duration: "6 Days",
@@ -78,7 +78,7 @@ const mediumMountains = [
     {
         id:6,
         name: "Akioid (4030m) Marrakech",
-        image: "../../public/images/akioid.jpg",
+        image: "/images/akioid.jpg",
         titel: "Akioid Peak Exploration",
         price: "$380",
         duration: "5 Days",

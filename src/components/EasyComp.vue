@@ -57,7 +57,7 @@ const softMountains = [
     {
         id:3,
         name: "Immouzar (4010m) Marrakech",
-        image: "../../public/images/imouzzar_maontain.jpg",
+        image: "/images/imouzzar_maontain.jpg",
         title: "Immouzar Trekking Adventure",
         price: "300 DH",
         duration: "4 Days",
@@ -66,7 +66,7 @@ const softMountains = [
     {
         id:9,
         name: "Iferouane (4001m) Kesh",
-        image: "../../public/images/Iferouane.jpg",
+        image: "/images/Iferouane.jpg",
         title: "Iferouane Scenic Exploration",
         price: "280 DH",
         duration: "3 Days",
@@ -75,7 +75,7 @@ const softMountains = [
     {
         id:8,
         name: "Biquinoussen (4002m) Kesh",
-        image: "../../public/images/Iferouane.jpg",
+        image: "/images/Iferouane.jpg",
         title: "Biquinoussen Cultural Trek",
         price: "320 DH",
         duration: "5 Days",

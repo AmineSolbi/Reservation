@@ -8,7 +8,7 @@
     "age_range": "12-65 years",
     "destination": "High Atlas Mountains",
     "group_size": "4-15",
-    "image":"../../public/images/toubkal_west.jpg",
+    "image":"/images/toubkal_west.jpg",
     "overview": "A short but rewarding trek to one of the stunning peaks of the High Atlas range.",
     "itinerary": [
       "Day 1: Arrival in Marrakech and transfer to Imlil.",

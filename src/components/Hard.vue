@@ -60,7 +60,7 @@ const hardMountains = [
     {
         id:2,
         name: "Toubkal (4167m) Marrakech",
-        image: "../../public/images/toubkal.jpg",
+        image: "/images/toubkal.jpg",
         titel: "Toubkal Summit Challenge",
         price: "600 DH",
         duration: "7 Days",
@@ -69,7 +69,7 @@ const hardMountains = [
     {
         id:9,
         name: "Iferouane (4001m) Kesh",
-        image: "../../public/images/timezguida.jpg",
+        image: "/images/timezguida.jpg",
         titel: "Iferouane Peak Expedition",
         price: "700 DH",
         duration: "8 Days",
@@ -78,7 +78,7 @@ const hardMountains = [
     {
         id:10,
         name: "Mgoun (4071m) Azilal",
-        image: "../../public/images/magoun.jpg",
+        image: "/images/magoun.jpg",
         titel: "Mgoun Summit Adventure",
         price: "650 DH",
         duration: "6 Days",
