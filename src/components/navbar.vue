@@ -36,7 +36,7 @@
         <p class="font-bold text-2xl sm:text-5xl text-white absolute top-[20%] left-5 sm:left-10 w-[90%] sm:w-[60%]">
             Experience seamless expedition planning with our powerful web platform for mountain adventures!
         </p>
-        <img src="../assets/images/montain.jpg" class="h-[300px] sm:h-[400px] w-screen object-cover" />
+        <img src="../assets/images/Montain.jpg" class="h-[300px] sm:h-[400px] w-screen object-cover" />
     </div>
 </template>
 
