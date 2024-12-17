@@ -11,7 +11,7 @@
 
         <!-- Image Section -->
         <div class="flex justify-center mb-6">
-            <img src="../assets/images/Ellipse_2.png" alt="Walid's Photo"
+            <img src="../../public/images/Ellipse_2.png" alt="Walid's Photo"
                 class="w-32 h-32 sm:w-48 sm:h-48 object-cover rounded-full border-8 border-white shadow-2xl transform hover:scale-105 transition-all duration-300" />
         </div>
 
@@ -54,20 +54,21 @@
         <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-6 w-full max-w-3xl px-4">
             <div
                 class="w-28 h-28 sm:w-32 sm:h-32 bg-white rounded-full shadow-lg overflow-hidden flex items-center justify-center transform hover:scale-110 transition-all duration-300 mx-auto">
-                <img src="../assets/images/walidtoubkal.jpg" alt="Walid in Toubkal"
+                <img src="../../public/images/walidtoubkal.jpg" alt="Walid in Toubkal"
                     class="w-full h-full object-cover" />
             </div>
             <div
                 class="w-28 h-28 sm:w-32 sm:h-32 bg-white rounded-full shadow-lg overflow-hidden flex items-center justify-center transform hover:scale-110 transition-all duration-300 mx-auto">
-                <img src="../assets/images/walidtoubkal2.jpg" alt="Scenic view" class="w-full h-full object-cover" />
+                <img src="../../public/images/walidtoubkal2.jpg" alt="Scenic view" class="w-full h-full object-cover" />
             </div>
             <div
                 class="w-28 h-28 sm:w-32 sm:h-32 bg-white rounded-full shadow-lg overflow-hidden flex items-center justify-center transform hover:scale-110 transition-all duration-300 mx-auto">
-                <img src="../assets/images/walidtoubkal3.jpg" alt="Mountain trail" class="w-full h-full object-cover" />
+                <img src="../../public/images/walidtoubkal3.jpg" alt="Mountain trail"
+                    class="w-full h-full object-cover" />
             </div>
             <div
                 class="w-28 h-28 sm:w-32 sm:h-32 bg-white rounded-full shadow-lg overflow-hidden flex items-center justify-center transform hover:scale-110 transition-all duration-300 mx-auto">
-                <img src="../assets/images/walidtoubkal4.jpg" alt="Summit view" class="w-full h-full object-cover" />
+                <img src="../../public/images/walidtoubkal4.jpg" alt="Summit view" class="w-full h-full object-cover" />
             </div>
         </div>
     </div>

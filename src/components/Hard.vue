@@ -15,35 +15,38 @@
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
             <div v-for="Dest in hardMountains" :key="Dest.id"
                 class="bg-white p-5 rounded-lg shadow-lg hover:shadow-xl hover:scale-110 transition-all duration-300 cursor-pointer ">
-                <!-- Mountain Name -->
-                <p class="text-xl font-semibold text-[#333] mb-3">{{ Dest.name }}</p>
-                <img :src="Dest.image" alt="Mountain Image" class="w-full h-48 object-cover rounded-lg mb-4">
+                <router-link :to="{ name: 'details', params: { id: Dest.id } }">
 
-                <!-- Title -->
-                <p class="text-lg font-medium text-[#444]">{{ Dest.titel }}</p>
+                    <!-- Mountain Name -->
+                    <p class="text-xl font-semibold text-[#333] mb-3">{{ Dest.name }}</p>
+                    <img :src="Dest.image" alt="Mountain Image" class="w-full h-48 object-cover rounded-lg mb-4">
 
-                <hr class="my-4 border-t-2 border-gray-200">
+                    <!-- Title -->
+                    <p class="text-lg font-medium text-[#444]">{{ Dest.titel }}</p>
 
-                <!-- Info Section -->
-                <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
-                    <!-- Price -->
-                    <div class="flex items-center justify-start space-x-2">
-                        <Icon icon="iconoir:coins" class="text-[#1D4ED8]" />
-                        <p class="text-[#333] font-semibold">{{ Dest.price }}</p>
+                    <hr class="my-4 border-t-2 border-gray-200">
+
+                    <!-- Info Section -->
+                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                        <!-- Price -->
+                        <div class="flex items-center justify-start space-x-2">
+                            <Icon icon="iconoir:coins" class="text-[#1D4ED8]" />
+                            <p class="text-[#333] font-semibold">{{ Dest.price }}</p>
+                        </div>
+
+                        <!-- Duration -->
+                        <div class="flex items-center justify-start space-x-2">
+                            <Icon icon="ic:baseline-access-time" class="text-[#F59E0B]" />
+                            <p class="text-[#333] font-semibold">{{ Dest.duration }}</p>
+                        </div>
+
+                        <!-- Level -->
+                        <div class="flex items-center justify-start space-x-2">
+                            <Icon icon="token:lvl" class="text-[#DC2626]" />
+                            <p class="text-[#333] font-semibold">{{ Dest.level }}</p>
+                        </div>
                     </div>
-
-                    <!-- Duration -->
-                    <div class="flex items-center justify-start space-x-2">
-                        <Icon icon="ic:baseline-access-time" class="text-[#F59E0B]" />
-                        <p class="text-[#333] font-semibold">{{ Dest.duration }}</p>
-                    </div>
-
-                    <!-- Level -->
-                    <div class="flex items-center justify-start space-x-2">
-                        <Icon icon="token:lvl" class="text-[#DC2626]" />
-                        <p class="text-[#333] font-semibold">{{ Dest.level }}</p>
-                    </div>
-                </div>
+                </router-link>
             </div>
         </div>
     </div>
@@ -57,7 +60,7 @@ const hardMountains = [
     {
         id:2,
         name: "Toubkal (4167m) Marrakech",
-        image: "src/assets/images/toubkal.jpg",
+        image: "../../public/images/toubkal.jpg",
         titel: "Toubkal Summit Challenge",
         price: "600 DH",
         duration: "7 Days",
@@ -66,7 +69,7 @@ const hardMountains = [
     {
         id:9,
         name: "Iferouane (4001m) Kesh",
-        image: "src/assets/images/timezguida.jpg",
+        image: "../../public/images/timezguida.jpg",
         titel: "Iferouane Peak Expedition",
         price: "700 DH",
         duration: "8 Days",
@@ -75,7 +78,7 @@ const hardMountains = [
     {
         id:10,
         name: "Mgoun (4071m) Azilal",
-        image: "src/assets/images/magoun.jpg",
+        image: "../../public/images/magoun.jpg",
         titel: "Mgoun Summit Adventure",
         price: "650 DH",
         duration: "6 Days",
