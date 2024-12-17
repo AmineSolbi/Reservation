@@ -57,7 +57,7 @@ const softMountains = [
     {
         id:3,
         name: "Immouzar (4010m) Marrakech",
-        image: "../assets/images/imouzzar_maontain.jpg",
+        image: "/assets/images/imouzzar_maontain.jpg",
         title: "Immouzar Trekking Adventure",
         price: "300 DH",
         duration: "4 Days",
