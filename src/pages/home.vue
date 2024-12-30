@@ -3,53 +3,7 @@
         <!-- Header Section -->
         <Navbar @scroll-to-about="scrollToAboutMe" />
         <!-- Filter Section -->
-        <div
-            class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 w-[90%] lg:w-[80%] mx-auto p-6 bg-[#0E2641] rounded-lg shadow-lg mt-5">
-            <!-- Destination Selector -->
-            <div
-                class="bg-gray-50 p-4 rounded-lg flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-2 w-full">
-                <Icon icon="material-symbols:map-outline-sharp" class="text-2xl text-[#2B70BE]" />
-                <select v-model="selectedDestination"
-                    class="border-2 border-gray-300 rounded-lg p-2 w-full sm:w-auto focus:outline-none focus:ring-2 focus:ring-[#2B70BE] transition-all duration-300">
-                    <option value="">Destinations</option>
-                    <option v-for="Dest in Destination" :key="Dest.id" :value="Dest.name">
-                        {{ Dest.name }}
-                    </option>
-                </select>
 
-            </div>
-
-            <!-- Duration Slider -->
-            <div class="bg-gray-50 p-4 rounded-lg w-full">
-                <label for="range-slider" class="block text-gray-700 font-semibold mb-2">Duration: {{ sliderValue }}
-                    day</label>
-                <input id="range-slider" type="range" min="2" max="10" v-model="sliderValue"
-                    class="w-full h-2 bg-gray-200 rounded-lg appearance-none" />
-                <div class="flex justify-between text-sm text-gray-500 mt-2">
-                    <span>2</span>
-                    <span>10</span>
-                </div>
-            </div>
-
-            <!-- Period Selector -->
-            <select v-model="selectedPeriod"
-                class="border-2 border-gray-300 rounded-lg p-2 w-full sm:w-auto focus:outline-none">
-                <option value="">Period</option>
-                <option v-for="Dest in Period" :key="Dest.id" :value="Dest.perdios">
-                    {{ Dest.perdios }}
-                </option>
-            </select>
-
-
-            <!-- Search Button -->
-            <div @click="handleSearch"
-                class="flex justify-center text-[#2B70BE] bg-white rounded-lg hover:text-white hover:bg-[#2B70BE] duration-300 cursor-pointer">
-                <div class="flex items-center justify-center space-x-2">
-                    <Icon icon="iconamoon:search-bold" class="text-3xl" />
-                    <p class="font-bold text-2xl">Go</p>
-                </div>
-            </div>
-        </div>
 
         <!-- Other Components -->
         <div class="mt-[40%] md:mt-0">

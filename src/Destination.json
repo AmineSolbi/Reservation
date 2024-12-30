@@ -1,71 +1,92 @@
 [
   {
     "id": 1,
-    "name": "Toubkal West (4030m) Marrakech",
-    "duration": 5,
-    "activities": "Alpine Trekking",
-    "difficulty": "Moderate",
-    "age_range": "12-65 years",
-    "destination": "High Atlas Mountains",
-    "group_size": "4-15",
-    "image":"/images/toubkal_west.jpg",
-    "overview": "A short but rewarding trek to one of the stunning peaks of the High Atlas range.",
-    "itinerary": [
-      "Day 1: Arrival in Marrakech and transfer to Imlil.",
-      "Day 2: Trek to Toubkal Base Camp via scenic trails.",
-      "Day 3: Summit Toubkal West (4030m) and return to Base Camp.",
-      "Day 4: Descend to Imlil and explore Berber villages.",
-      "Day 5: Return to Marrakech and departure."
-    ],
-    "cost_includes": [
-      "Accommodation during the trek (shared tents/lodges)",
-      "Meals (Breakfast, Lunch, Dinner)",
-      "Professional mountain guide",
-      "Porter services for equipment",
-      "National park permits",
-      "Transportation to and from Marrakech"
-    ],
-    "cost_excludes": [
-      "International flights",
-      "Travel insurance",
-      "Personal trekking gear (boots, backpacks, etc.)",
-      "Tips for guides and porters",
-      "Any personal expenses (souvenirs, additional snacks, etc.)"
-    ],
-    "booking_period": "March to October",
-    "gallery": [
-      "https://www.happy-feet.ma/wp-content/uploads/2022/03/Toubkal-West-4030m.jpg",
-      "https://www.flickr.com/photos/39788135@N06/3655452026",
-      "https://www.youtube.com/watch?v=DABC1GPSb50",
-      "https://www.flickr.com/photos/markhorrell/albums/72157655291086638/"
-    ]
-  },
-  {
-    "id": 2,
-    "name": "Toubkal (4167m) Marrakech",
-    "duration": "7 Days",
+    "name": "Ras n’Ouanoukrim (4083 m) / Timzguida Ouest (4089 m)",
+    "duration": "2 Days",
     "activities": "Alpine Trekking",
     "difficulty": "Challenging",
-    "age_range": "15-60 years",
+    "age_range": "All ages",
     "destination": "High Atlas Mountains",
     "group_size": "3-12",
     "overview": "An exhilarating adventure to North Africa's highest peak.",
     "itinerary": [
-      "Day 1: Arrival in Marrakech and transfer to Imlil.",
-      "Day 2: Acclimatization hike around Imlil.",
-      "Day 3: Trek to Base Camp.",
-      "Day 4: Summit Toubkal (4167m) and return to Base Camp.",
-      "Day 5: Explore nearby trails and rest.",
-      "Day 6: Descend to Imlil.",
-      "Day 7: Return to Marrakech and departure."
+      {
+        "day": "Day 1",
+        "details": [
+          "Departure from Imlil.",
+          "Lunch near Chamharouch.",
+          "Arrival at the Toubkal Base Camp.",
+          "Dinner and shower."
+        ]
+      },
+      {
+        "day": "Day 2",
+        "details": [
+          "Early breakfast at 4:00 AM.",
+          "Summit push at 5:00 AM.",
+          "Lunch back at the base camp.",
+          "Return to Imlil.",
+          "Option to stay overnight in Imlil or head back."
+        ]
+      }
     ],
     "cost_includes": [
       "Accommodation in mountain refuges and lodges",
       "Meals (Breakfast, Lunch, Dinner)",
       "Experienced trekking guide",
-      "Porter and mule services",
-      "National park entry fees",
-      "Transportation from Marrakech"
+      "Porter and mule services"
+    ],
+    "cost_excludes": [
+      "Travel insurance",
+      "International airfare",
+      "Personal trekking equipment",
+      "Tips for staff",
+      "Personal expenses (drinks, snacks, etc.)"
+    ],
+    "booking_period": "April to November",
+    "gallery": [
+      "https://www.shutterstock.com/search/toubkal-summit",
+      "https://www.alamy.com/stock-photo/toubkal-summit.html",
+      "https://www.flickr.com/photos/markhorrell/albums/72157655291086638/",
+      "https://www.instagram.com/explore/locations/252407480/mount-toubkal-summit-4167m/"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Toubkal (4167m) / Toubkal Ouest (4030 m) / Imouzzer - Tibherine (4010 m)",
+    "duration": "2 Days",
+    "activities": "Alpine Trekking",
+    "difficulty": "Challenging",
+    "age_range": "All ages",
+    "destination": "High Atlas Mountains",
+    "group_size": "3-12",
+    "overview": "An exhilarating adventure to North Africa's highest peak.",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "details": [
+          "Departure from Imlil.",
+          "Lunch near Chamharouch.",
+          "Arrival at the Toubkal Base Camp.",
+          "Dinner and shower."
+        ]
+      },
+      {
+        "day": "Day 2",
+        "details": [
+          "Early breakfast at 4:00 AM.",
+          "Summit push at 5:00 AM.",
+          "Lunch back at the base camp.",
+          "Return to Imlil.",
+          "Option to stay overnight in Imlil or head back."
+        ]
+      }
+    ],
+    "cost_includes": [
+      "Accommodation in mountain refuges and lodges",
+      "Meals (Breakfast, Lunch, Dinner)",
+      "Experienced trekking guide",
+      "Porter and mule services"
     ],
     "cost_excludes": [
       "Travel insurance",
@@ -84,73 +105,138 @@
   },
   {
     "id": 3,
-    "name": "Immouzar (4010m) Marrakech",
-    "duration": "4 Days",
-    "activities": "Trekking and Cultural Exploration",
-    "difficulty": "Easy",
-    "age_range": "10-70 years",
-    "destination": "High Atlas Mountains",
-    "group_size": "2-20",
-    "overview": "A gentle trek with cultural exploration in the heart of the High Atlas.",
-    "itinerary": [
-      "Day 1: Arrival in Marrakech and transfer to Imlil.",
-      "Day 2: Trek to Immouzar and explore the region.",
-      "Day 3: Return to Imlil.",
-      "Day 4: Transfer back to Marrakech."
-    ],
-    "cost_includes": [
-      "Accommodation in local guesthouses",
-      "Meals (Breakfast, Lunch, Dinner)",
-      "Guided tours of Berber villages",
-      "Transportation to and from Marrakech"
-    ],
-    "cost_excludes": [
-      "Personal travel insurance",
-      "Trekking gear rentals (if needed)",
-      "Tips for guides",
-      "Extra snacks and drinks"
-    ],
-    "booking_period": "March to December",
-    "gallery": [
-      "https://www.flickr.com/photos/39788135@N06/3655452026",
-      "https://f.hikr.org/files/2448602l.jpg",
-      "https://www.youtube.com/watch?v=jRgJZ0-p2Bo",
-      "https://www.flickr.com/photos/markhorrell/albums/72157655291086638/"
-    ]
-  },
-  {
-    "id": 6,
-    "name": "Akioid (4030m) Marrakech",
+    "name": "Ighil M’Goun (4071 m)",
     "duration": "4 Days",
     "activities": "Alpine Trekking",
-    "difficulty": "Moderate",
-    "age_range": "12-60 years",
+    "difficulty": "Challenging",
+    "age_range": "All ages",
     "destination": "High Atlas Mountains",
-    "group_size": "3-10",
-    "overview": "Explore the trails of Akioid with panoramic views of the surrounding peaks.",
+    "group_size": "3-12",
+    "overview": "An exhilarating adventure to North Africa's highest peak.",
     "itinerary": [
-      "Day 1: Arrival in Marrakech and transfer to Imlil.",
-      "Day 2: Trek to Akioid Base Camp.",
-      "Day 3: Summit Akioid (4030m) and return.",
-      "Day 4: Return to Marrakech."
+      {
+        "day": "Day 1",
+        "details": [
+          "Morning: Arrival in Azilal, a popular starting point for the ascent.",
+          "Noon: Arrival at the starting point of the trek, either the village of Ijoukak or Ait Bouguemez (depending on the itinerary chosen).",
+          "Afternoon: Meet your local guide (mandatory for treks in this area) and prepare for the trek.",
+          "Evening: Settle in a guesthouse or camp in the valley, enjoy a traditional dinner."
+        ]
+      },
+      {
+        "day": "Day 2",
+        "details": [
+          "Morning: Breakfast, then departure for the first day of trekking. The route begins with a hike through the M'goun Valley, offering stunning views of mountains and Berber villages.",
+          "Noon: Lunch break along the way, picnic prepared by your team.",
+          "Afternoon: Arrival at the Tamsoult Refuge or camp. This place offers a good base for the M'goun ascent. Dinner and overnight stay at the refuge or in tents."
+        ]
+      },
+      {
+        "day": "Day 3",
+        "details": [
+          "Very early morning: Light breakfast. Early departure for the summit ascent.",
+          "Route: The ascent starts with a gradual climb through rocky terrain and grassy slopes. Reaching the summit of M'goun can take between 5 to 7 hours, depending on the fitness level of the group.",
+          "Summit arrival: Once at the top, enjoy the breathtaking views of the surrounding mountains, valleys, and other peaks of the High Atlas."
+        ]
+      },
+      {
+        "day": "Day 4",
+        "details": [
+          "Morning: Breakfast, then departure for the descent to the valley.",
+          "Route: The trek descends through the Ijoukak or Ait Bouguemez valley, passing through stunning landscapes of mountains, streams, and Berber villages.",
+          "Noon: Lunch break along the way.",
+          "Afternoon: Arrival in the valley, then transfer by vehicle back to Azilal.",
+          "Evening: Return to Azilal, end of the ascent."
+        ]
+      }
     ],
     "cost_includes": [
+      "Accommodation in mountain refuges and lodges",
       "Meals (Breakfast, Lunch, Dinner)",
-      "Accommodation in lodges",
-      "Transportation to/from Marrakech",
-      "Professional guide services"
+      "Experienced trekking guide",
+      "Porter and mule services"
     ],
     "cost_excludes": [
       "Travel insurance",
-      "Personal trekking gear",
-      "Tips and personal expenses"
+      "International airfare",
+      "Personal trekking equipment",
+      "Tips for staff",
+      "Personal expenses (drinks, snacks, etc.)"
     ],
-    "booking_period": "March to October",
+    "booking_period": "April to November",
     "gallery": [
-      "https://www.youtube.com/watch?v=DABC1GPSb50",
-      "https://www.flickr.com/photos/markhorrell/albums/72157655291086638/",
       "https://www.shutterstock.com/search/toubkal-summit",
-      "https://www.alamy.com/stock-photo/toubkal-summit.html"
+      "https://www.alamy.com/stock-photo/toubkal-summit.html",
+      "https://www.flickr.com/photos/markhorrell/albums/72157655291086638/",
+      "https://www.instagram.com/explore/locations/252407480/mount-toubkal-summit-4167m/"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Ighil M’Goun (4071 m)",
+    "duration": "4 Days",
+    "activities": "Alpine Trekking",
+    "difficulty": "Challenging",
+    "age_range": "All ages",
+    "destination": "High Atlas Mountains",
+    "group_size": "3-12",
+    "overview": "An exhilarating adventure to North Africa's highest peak.",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "details": [
+          "Morning: Arrival in Azilal, a popular starting point for the ascent.",
+          "Noon: Arrival at the starting point of the trek, either the village of Ijoukak or Ait Bouguemez (depending on the itinerary chosen).",
+          "Afternoon: Meet your local guide (mandatory for treks in this area) and prepare for the trek.",
+          "Evening: Settle in a guesthouse or camp in the valley, enjoy a traditional dinner."
+        ]
+      },
+      {
+        "day": "Day 2",
+        "details": [
+          "Morning: Breakfast, then departure for the first day of trekking. The route begins with a hike through the M'goun Valley, offering stunning views of mountains and Berber villages.",
+          "Noon: Lunch break along the way, picnic prepared by your team.",
+          "Afternoon: Arrival at the Tamsoult Refuge or camp. This place offers a good base for the M'goun ascent. Dinner and overnight stay at the refuge or in tents."
+        ]
+      },
+      {
+        "day": "Day 3",
+        "details": [
+          "Very early morning: Light breakfast. Early departure for the summit ascent.",
+          "Route: The ascent starts with a gradual climb through rocky terrain and grassy slopes. Reaching the summit of M'goun can take between 5 to 7 hours, depending on the fitness level of the group.",
+          "Summit arrival: Once at the top, enjoy the breathtaking views of the surrounding mountains, valleys, and other peaks of the High Atlas."
+        ]
+      },
+      {
+        "day": "Day 4",
+        "details": [
+          "Morning: Breakfast, then departure for the descent to the valley.",
+          "Route: The trek descends through the Ijoukak or Ait Bouguemez valley, passing through stunning landscapes of mountains, streams, and Berber villages.",
+          "Noon: Lunch break along the way.",
+          "Afternoon: Arrival in the valley, then transfer by vehicle back to Azilal.",
+          "Evening: Return to Azilal, end of the ascent."
+        ]
+      }
+    ],
+    "cost_includes": [
+      "Accommodation in mountain refuges and lodges",
+      "Meals (Breakfast, Lunch, Dinner)",
+      "Experienced trekking guide",
+      "Porter and mule services"
+    ],
+    "cost_excludes": [
+      "Travel insurance",
+      "International airfare",
+      "Personal trekking equipment",
+      "Tips for staff",
+      "Personal expenses (drinks, snacks, etc.)"
+    ],
+    "booking_period": "April to November",
+    "gallery": [
+      "https://www.shutterstock.com/search/toubkal-summit",
+      "https://www.alamy.com/stock-photo/toubkal-summit.html",
+      "https://www.flickr.com/photos/markhorrell/albums/72157655291086638/",
+      "https://www.instagram.com/explore/locations/252407480/mount-toubkal-summit-4167m/"
     ]
   },
   {

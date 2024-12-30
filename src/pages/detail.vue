@@ -2,16 +2,11 @@
     <div class="overflow-hidden">
         <Navbar />
 
-        <div class="bg-gray-50 py-10">
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <h2 class="text-3xl font-bold text-center text-[#2B70BE] mb-6">Gallery</h2>
-            </div>
-        </div>
 
         <div class="bg-gray-100 p-6 rounded-lg shadow-lg mx-auto my-10 w-[90%]">
             <!-- Mountain Overview -->
             <div class="text-center">
-                <h1 class="text-3xl font-bold text-[#2B70BE] mb-4">{{ destination?.name }}</h1>
+                <h1 class="text-3xl font-bold text-black mb-4">{{ destination?.name }}</h1>
                 <p class="text-xl font-semibold text-gray-700">{{ destination?.overview }}</p>
             </div>
 
@@ -23,10 +18,7 @@
                     <p class="text-gray-700">{{ destination?.duration }}</p>
                 </div>
 
-                <div class="bg-white p-4 rounded-lg shadow-md">
-                    <h2 class="text-lg font-semibold text-[#2B70BE]">Difficulty</h2>
-                    <p class="text-gray-700">{{ destination?.difficulty }}</p>
-                </div>
+
 
                 <!-- Age Range and Group Size -->
                 <div class="bg-white p-4 rounded-lg shadow-md">
@@ -34,20 +26,24 @@
                     <p class="text-gray-700">{{ destination?.age_range }}</p>
                 </div>
 
-                <div class="bg-white p-4 rounded-lg shadow-md">
-                    <h2 class="text-lg font-semibold text-[#2B70BE]">Group Size</h2>
-                    <p class="text-gray-700">{{ destination?.group_size }}</p>
-                </div>
+
 
                 <!-- Itinerary -->
                 <div class="bg-white p-4 rounded-lg shadow-md col-span-2">
                     <h2 class="text-lg font-semibold text-[#2B70BE]">Itinerary</h2>
-                    <ul class="list-disc pl-6 space-y-2">
+                    <ul class="list-disc pl-6 space-y-4">
                         <li v-for="(day, index) in destination?.itinerary" :key="index" class="text-gray-700">
-                            <span class="font-semibold">Day {{ index + 1 }}:</span> {{ day }}
+                            <span class="font-semibold">{{ day.day }}</span>
+                            <ul class="list-disc pl-4 space-y-2">
+                                <li v-for="(detail, detailIndex) in day.details" :key="detailIndex"
+                                    class="text-gray-600">
+                                    {{ detail }}
+                                </li>
+                            </ul>
                         </li>
                     </ul>
                 </div>
+
 
                 <!-- Cost Includes & Excludes -->
                 <div class="bg-white p-4 rounded-lg shadow-md col-span-2">
@@ -66,12 +62,6 @@
                             {{ item }}
                         </li>
                     </ul>
-                </div>
-
-                <!-- Booking Period -->
-                <div class="bg-white p-4 rounded-lg shadow-md col-span-2">
-                    <h2 class="text-lg font-semibold text-[#2B70BE]">Booking Period</h2>
-                    <p class="text-gray-700">{{ destination?.booking_period }}</p>
                 </div>
             </div>
         </div>
